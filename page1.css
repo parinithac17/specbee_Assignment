@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Section Title */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Featured Speaker Section */
+.featured-speaker {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.speaker-profile {
+    display: flex;
+    align-items: center;
+}
+
+.speaker-image {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.speaker-info {
+    text-align: left;
+}
+
+.speaker-info h2 {
+    margin-bottom: 5px;
+}
+
+.title {
+    font-weight: bold;
+    color: #555;
+}
+
+.company {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons i {
+    font-size: 1.2rem;
+    color: #0077b5;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.speaker-description {
+    max-width: 600px;
+    text-align: left;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.carousel-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 20%;
+}
+
+.carousel-item img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.carousel-item h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.carousel-item p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Program Button */
+.program-button {
+    margin-top: 20px;
+}
+
+.program-button button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.program-button button:hover {
+    background-color: #0056b3;
+}
